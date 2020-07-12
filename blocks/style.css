@@ -39,6 +39,10 @@
   line-height: 28px;
 }
 
+.header__lang-link:not(:last-child) {
+  margin-right: 18px;
+}
+
 .header__lang-link_type_ru {
   text-decoration: underline;
 }
@@ -103,4 +107,43 @@
   font-weight: normal;
   font-style: normal;
   line-height: 140%;
+}
+
+.intro {
+  margin: auto;
+  padding: 92px 0;
+}
+
+.content__intro {
+  margin: 0 442px 0 148px;
+}
+
+.intro__title {
+  margin: 0 0 40px;
+
+  font-size: 54px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 58px;
+}
+
+.intro__text {
+  margin: 0 0 32px;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 26px;
+}
+
+.intro__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 18px;
 }
