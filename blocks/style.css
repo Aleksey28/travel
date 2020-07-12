@@ -1,0 +1,62 @@
+@import url('../vendor/Inter-3.13/Inter Web/inter.css');
+
+.page {
+  background: #2A2C2F;
+
+  font-family: 'Inter';
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  width: calc(100% - 96px);
+  height: 52px;
+  margin: auto;
+  padding-top: 28px;
+}
+
+.header__logo {
+  width: 176px;
+  height: 100%;
+
+  background-image: url(../images/russia__logo.svg);
+}
+
+.header__lang-link {
+  text-align: right;
+
+  color: #FFFFFF;
+
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 28px;
+}
+
+.header__lang-link_type_ru {
+  text-decoration: underline;
+}
+
+.header__lang-link_type_en {
+  text-decoration: none;
+}
+
+.content {
+}
+
+.lead {
+}
+
+.lead__title {
+}
+
+.lead__subtitle {
+}
+
+.lead__image {
+}
+
+.lead__caption {
+}
