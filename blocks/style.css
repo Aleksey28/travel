@@ -1,6 +1,10 @@
 @import url('../vendor/Inter-3.13/Inter Web/inter.css');
 
 .page {
+  /* max-width: 1280px; */
+  margin: auto;
+
+  color: #FFFFFF;
   background: #2A2C2F;
 
   font-family: 'Inter';
@@ -14,7 +18,7 @@
   width: calc(100% - 96px);
   height: 52px;
   margin: auto;
-  padding-top: 28px;
+  padding: 28px 0 56px;
 }
 
 .header__logo {
@@ -43,20 +47,60 @@
   text-decoration: none;
 }
 
-.content {
-}
-
 .lead {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: calc(100% - 148px * 2);
+  margin: auto;
 }
 
 .lead__title {
+  width: 720px;
+  min-height: 200px;
+  margin: 0 0 32px;
+  padding: 0;
+
+  text-align: center;
+
+  font-size: 96px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 104%;
 }
 
 .lead__subtitle {
+  width: 640px;
+  min-height: 72px;
+  margin: 0;
+  padding: 0 0 64px;
+
+  text-align: center;
+
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 36px;
 }
 
 .lead__image {
+  width: 100%;
+  padding: 0 0 8px;
+
+  object-fit: cover;
 }
 
 .lead__caption {
+  align-self: flex-start;
+
+  margin: 0;
+
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 140%;
 }
