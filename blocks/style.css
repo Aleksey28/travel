@@ -25,7 +25,7 @@
   width: 176px;
   height: 100%;
 
-  background-image: url(../images/russia__logo.svg);
+  background-image: url(../images/header-logo.svg);
 }
 
 .header__lang-link {
@@ -43,12 +43,8 @@
   margin-right: 18px;
 }
 
-.header__lang-link_type_ru {
+.header__lang-link_active {
   text-decoration: underline;
-}
-
-.header__lang-link_type_en {
-  text-decoration: none;
 }
 
 .lead {
@@ -146,4 +142,18 @@
   font-weight: bold;
   font-style: normal;
   line-height: 18px;
+}
+
+.photo-grid {
+  display: grid;
+
+  width: calc(100% - 48px * 2);
+  margin: auto;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
+
+}
+.photo-grid__item {
+  width: 100%;
 }
