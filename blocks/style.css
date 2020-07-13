@@ -30,6 +30,7 @@
 
 .header__lang-link {
   text-align: right;
+  text-decoration: none;
 
   color: #FFFFFF;
 
@@ -89,6 +90,7 @@
   padding: 0 0 8px;
 
   object-fit: cover;
+  object-position: center;
 }
 
 .lead__caption {
@@ -156,4 +158,19 @@
 }
 .photo-grid__item {
   width: 100%;
+}
+
+
+.places {
+  padding: 92px 0 0;
+}
+.place {
+}
+.place__title {
+}
+.place__image {
+}
+.place__website {
+}
+.place__paragraph {
 }
