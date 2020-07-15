@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./blocks/style.css">
-  <link rel="stylesheet" href="./vendor/normalize.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 </head>
 <body class="page">
   <header class="header">
     <div class="header__logo"></div>
-    <div class="header__lang-links">
-      <a target="_blank" href="#" class="header__lang-link header__lang-link_active">Ru</a>
-      <a target="_blank" href="#" class="header__lang-link">En</a>
+    <div>
+      <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+      <a href="#" class="header__lang-link">En</a>
     </div>
   </header>
   <main class="content">
@@ -124,14 +123,12 @@
   </main>
 
   <footer class="footer">
-    <nav class="footer__links">
-      <ul>
-        <li class="footer__link"><a href="https://yandex.ru/maps">Карты</a></li>
-        <li class="footer__link"><a href="https://yandex.ru/pogoda">Погода</a></li>
-        <li class="footer__link"><a href="https://rasp.yandex.ru">Расписание</a></li>
-        <li class="footer__link"><a href="https://calendar.yandex.ru">Календарь</a></li>
-        <li class="footer__link"><a href="https://travel.yandex.ru">Путешествия</a></li>
-      </ul>
+    <nav>
+        <a class="footer__link" target="_blank" href="https://yandex.ru/maps">Карты</a>
+        <a class="footer__link" target="_blank" href="https://yandex.ru/pogoda">Погода</a>
+        <a class="footer__link" target="_blank" href="https://rasp.yandex.ru">Расписание</a>
+        <a class="footer__link" target="_blank" href="https://calendar.yandex.ru">Календарь</a>
+        <a class="footer__link" target="_blank" href="https://travel.yandex.ru">Путешествия</a>
     </nav>
     <p class="footer__copyright">© 2020. Попов Алексей</p>
   </footer>

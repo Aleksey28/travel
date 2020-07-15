@@ -1,4 +1,4 @@
-@import url('../vendor/Inter-3.13/Inter Web/inter.css');
+
 
 .page {
   max-width: 1280px;
@@ -8,6 +8,12 @@
   background: #2A2C2F;
 
   font-family: 'Inter';
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
 
 .header {
@@ -37,7 +43,7 @@
   font-size: 24px;
   font-weight: normal;
   font-style: normal;
-  line-height: 28px;
+  line-height: 1.17;
 
 }
 
@@ -69,7 +75,7 @@
   font-size: 96px;
   font-weight: 900;
   font-style: normal;
-  line-height: 104%;
+  line-height: 1.04;
 }
 
 .lead__subtitle {
@@ -83,7 +89,7 @@
   font-size: 30px;
   font-weight: normal;
   font-style: normal;
-  line-height: 36px;
+  line-height: 1.2;
 }
 
 .lead__image {
@@ -105,7 +111,7 @@
   font-size: 10px;
   font-weight: normal;
   font-style: normal;
-  line-height: 140%;
+  line-height: 1.40;
 }
 
 .intro {
@@ -123,7 +129,7 @@
   font-size: 54px;
   font-weight: 900;
   font-style: normal;
-  line-height: 58px;
+  line-height: 1.07;
 }
 
 .intro__text {
@@ -132,7 +138,7 @@
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
-  line-height: 26px;
+  line-height: 1.62;
 }
 
 .intro__list {
@@ -144,7 +150,7 @@
   font-size: 12px;
   font-weight: bold;
   font-style: normal;
-  line-height: 18px;
+  line-height: 1.5;
 }
 
 .photo-grid {
@@ -198,7 +204,7 @@
   font-size: 72px;
   font-weight: 900;
   font-style: normal;
-  line-height: 76px;
+  line-height: 1.06;
 }
 .place__image {
   width: 100%;
@@ -216,7 +222,7 @@
   font-size: 12px;
   font-weight: normal;
   font-style: normal;
-  line-height: 170%;
+  line-height: 1.;
 }
 .place__link {
   color: #FFFFFF;
@@ -224,7 +230,7 @@
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
-  line-height: 22px;
+  line-height: 1.22;
 
   text-decoration-line: underline;
 }
@@ -240,7 +246,7 @@
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
-  line-height: 30px;
+  line-height: 1.67;
 }
 
 
@@ -263,7 +269,7 @@
   font-size: 72px;
   font-weight: 900;
   font-style: normal;
-  line-height: 106%;
+  line-height: 1.06;
 }
 .cover__subtitle {
   width: 360px;
@@ -275,7 +281,7 @@
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
-  line-height: 122%;
+  line-height: 1.22;
 }
 .cover__overlay {
   display: flex;
@@ -294,4 +300,38 @@
 
 .cover__overlay:hover {
   background-color: rgba(42, 44, 47, .8);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  width: calc(100% - 48px * 2);
+  margin: auto;
+  padding: 92px 0 24px;
+}
+
+.footer__link {
+  margin-right: 18px;
+
+  text-decoration: none;
+
+  color: #FFFFFF;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.12;
+}
+
+.footer__copyright {
+  margin: 0;
+
+  text-align: right;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.14;
 }
