@@ -166,7 +166,7 @@
 .places {
   width: calc(100% - 148px * 2);
   margin: auto;
-  padding: 0 0 0;
+  padding: 0 0 92px;
 
 
 }
@@ -241,4 +241,57 @@
   font-weight: normal;
   font-style: normal;
   line-height: 30px;
+}
+
+
+.cover {
+  width: calc(100% - 48px * 2);
+  min-height: 100vh;
+  margin: auto;
+  padding: 0;
+
+  background-image: url(../images/cover-trains.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.cover__title {
+  width: 560px;
+  margin: 0 0 32px;
+
+  text-align: center;
+
+  font-size: 72px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 106%;
+}
+.cover__subtitle {
+  width: 360px;
+  margin: 0;
+
+  text-align: center;
+
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 122%;
+}
+.cover__overlay {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+  min-height: 100vh;
+
+  text-decoration: none;
+
+  color: #FFFFFF;
+  background-color: rgba(42, 44, 47, 0);
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, .8);
 }
