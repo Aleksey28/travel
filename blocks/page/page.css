@@ -1,0 +1,25 @@
+.page {
+  position: relative;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  max-width: 1280px;
+  margin: 0 auto;
+
+  color: #FFFFFF;
+  background: #2A2C2F;
+
+  font-family: 'Inter';
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}

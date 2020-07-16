@@ -1,0 +1,30 @@
+.cover__overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  -webkit-transition: background-color .5s ease;
+  -o-transition: background-color .5s ease;
+  transition: background-color .5s ease;
+  text-decoration: none;
+
+  color: #FFFFFF;
+  background-color: rgba(42, 44, 47, 0);
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, .8);
+}

@@ -1,0 +1,33 @@
+.place__paragraph {
+  margin: 0;
+
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.67;
+}
+
+.place__paragraph:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 1.62;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__paragraph {
+    display: block;
+
+    width: calc(100% - 16px * 2);
+    margin: auto;
+  }
+}

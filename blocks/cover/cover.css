@@ -1,0 +1,32 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__overlay/cover__overlay.css);
+
+.cover {
+  width: calc(100% - 48px * 2);
+  height: 740px;
+  padding: 0;
+
+  background-image: url(../../images/cover-trains.png);
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover {
+    height: 200px;
+  }
+}
