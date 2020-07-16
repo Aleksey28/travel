@@ -2,6 +2,8 @@
   -ms-flex-item-align: end;
   -ms-grid-row-align: end;
   align-self: end;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 425px) {
