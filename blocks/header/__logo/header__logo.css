@@ -2,8 +2,8 @@
   width: 176px;
   height: 100%;
 
-  background-image: url(../../../images/header-logo.svg);
-  background-size: cover;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media screen and (max-width: 425px) {
