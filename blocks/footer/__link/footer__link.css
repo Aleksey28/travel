@@ -1,6 +1,4 @@
 .footer__link {
-  margin-right: 18px;
-
   -webkit-transition: opacity .2s ease;
   -o-transition: opacity .2s ease;
   transition: opacity .2s ease;
@@ -11,23 +9,16 @@
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
-  line-height: 1.12;
+  line-height: 18px;
 }
 
 .footer__link:hover {
   opacity: .8;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .footer__link {
-    display: block;
     font-size: 24px;
-    line-height: 1;
-  }
-  .footer__link:not(:last-child) {
-    margin-bottom: 32px;
-  }
-  .footer__link:last-child {
-    margin-bottom: 48px;
+    line-height: 14px;
   }
 }

@@ -22,7 +22,7 @@
   text-decoration: none;
 
   color: #FFFFFF;
-  background-color: rgba(42, 44, 47, 0);
+  background-color: rgba(42, 44, 47, .3);
 }
 
 .cover__overlay:hover {

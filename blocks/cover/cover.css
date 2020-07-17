@@ -4,7 +4,7 @@
 
 .cover {
   width: calc(100% - 48px * 2);
-  height: 740px;
+  height: 750px;
   padding: 0;
 
   background-image: url(../../images/cover-trains.jpg);

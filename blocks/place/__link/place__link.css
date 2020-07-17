@@ -1,4 +1,6 @@
 .place__link {
+  margin-bottom: 6px;
+
   -webkit-transition: opacity .2s ease;
   -o-transition: opacity .2s ease;
   transition: opacity .2s ease;
@@ -8,7 +10,7 @@
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
-  line-height: 1.22;
+  line-height: 22px;
 
   -webkit-text-decoration-line: underline;
   text-decoration-line: underline;

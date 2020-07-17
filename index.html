@@ -9,7 +9,7 @@
 <body class="page">
   <header class="header">
     <img class="header__logo" src="./images/header-logo.svg" alt="Логотип Россия.">
-    <div>
+    <div class="header__lang-links">
       <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
       <a href="#" class="header__lang-link">En</a>
     </div>
@@ -18,18 +18,20 @@
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img src="./images/way-map.jpg" alt="Карта маршрута:Псков, Великий Новгород, Тверь, Ярославль, Мантурово, Котельнич-1, Пермь, Тюмень, Омск, Красноярск, Улан-Удэ" class="lead__image">
-      <p class="lead__caption">ваша полка — верхняя</p>
+      <figure class="lead__illustration">
+        <img src="./images/way-map.jpg" alt="Карта маршрута:Псков, Великий Новгород, Тверь, Ярославль, Мантурово, Котельнич-1, Пермь, Тюмень, Омск, Красноярск, Улан-Удэ." class="lead__image">
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
     <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
       <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
-        <li>Часовых поясов 11</li>
-        <li>Объектов природного наследия ЮНЕСКО 12</li>
-        <li>Объектов культурного наследия ЮНЕСКО 16</li>
-        <li>Природных заповедников 105</li>
-        <li>Аэропортов 241</li>
+        <li>Часовых поясов <span class="intro__list-element">11</span></li>
+        <li>Объектов природного наследия ЮНЕСКО <span class="intro__list-element">12</span></li>
+        <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list-element">16</span></li>
+        <li>Природных заповедников <span class="intro__list-element">105</span></li>
+        <li>Аэропортов <span class="intro__list-element">241</span></li>
       </ul>
     </section>
     <section class="photo-grid">
@@ -51,7 +53,7 @@
         <li class="place">
           <h3 class="place__title">Куршская коса</h3>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <abbr class="place__url-heading" title="Uniform Resource Locator">url</abbr>
             <a target="_blank" href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
           </div>
           <img src="./images/place-kosa.jpg" alt="Камни и корни в воде." class="place__image">
@@ -63,7 +65,7 @@
         <li class="place">
           <h3 class="place__title">Кольский</h3>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <abbr class="place__url-heading" title="Uniform Resource Locator">url</abbr>
             <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National Geographic</a>
           </div>
           <img src="./images/place-kolsky.jpg" alt="Заснеженные горы." class="place__image">
@@ -77,7 +79,7 @@
         <li class="place">
           <h3 class="place__title">Алтай</h3>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <abbr class="place__url-heading" title="Uniform Resource Locator">url</abbr>
             <a target="_blank" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link">Facebook</a>
           </div>
           <img src="./images/place-altai.jpg" alt="Ноутбук на перилах терассы на фоне леса." class="place__image">
@@ -90,7 +92,7 @@
         <li class="place">
           <h3 class="place__title">Зимний Байкал</h3>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <abbr class="place__url-heading" title="Uniform Resource Locator">url</abbr>
             <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
           </div>
           <img src="./images/place-winter-baikal.jpg" alt="Треснувший лед Байкала." class="place__image">
@@ -104,7 +106,7 @@
         <li class="place">
           <h3 class="place__title">Карелия</h3>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <abbr class="place__url-heading" title="Uniform Resource Locator">url</abbr>
             <a target="_blank" href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
           </div>
           <img src="./images/place-karelia.jpg" alt="Река посреди лесов." class="place__image">
@@ -123,11 +125,13 @@
   </main>
   <footer class="footer">
     <nav>
-        <a class="footer__link" target="_blank" href="https://yandex.ru/maps">Карты</a>
-        <a class="footer__link" target="_blank" href="https://yandex.ru/pogoda">Погода</a>
-        <a class="footer__link" target="_blank" href="https://rasp.yandex.ru">Расписание</a>
-        <a class="footer__link" target="_blank" href="https://calendar.yandex.ru">Календарь</a>
-        <a class="footer__link" target="_blank" href="https://travel.yandex.ru">Путешествия</a>
+      <ul class="footer__links">
+        <li class="footer__links-item"><a class="footer__link" target="_blank" href="https://yandex.ru/maps">Карты</a></li>
+        <li class="footer__links-item"><a class="footer__link" target="_blank" href="https://yandex.ru/pogoda">Погода</a></li>
+        <li class="footer__links-item"><a class="footer__link" target="_blank" href="https://rasp.yandex.ru">Расписание</a></li>
+        <li class="footer__links-item"><a class="footer__link" target="_blank" href="https://calendar.yandex.ru">Календарь</a></li>
+        <li class="footer__links-item"><a class="footer__link" target="_blank" href="https://travel.yandex.ru">Путешествия</a></li>
+      </ul>
     </nav>
     <p class="footer__copyright">© 2020. Попов Алексей</p>
   </footer>

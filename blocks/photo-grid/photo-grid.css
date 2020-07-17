@@ -5,7 +5,7 @@
   display: grid;
 
   width: calc(100% - 48px * 2);
-  padding: 0 0 92px;
+  padding: 0 0 98px;
 
   -ms-grid-columns: 1fr 16px 1fr 16px 1fr 16px 1fr;
   grid-template-columns: repeat(4, 1fr);
@@ -13,7 +13,7 @@
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .photo-grid {
     min-width: calc(768px - 24px * 2);
 
@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .photo-grid {
     width: calc(100% - 24px * 2);
     min-width: calc(425px - 16px * 2);
@@ -35,11 +35,11 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .photo-grid {
     width: calc(100% - 16px * 2);
     min-width: 0;
-    padding-bottom: 64px;
+    padding-bottom: 68px;
 
     -ms-grid-columns: 1fr;
     grid-template-columns: repeat(1, 1fr);

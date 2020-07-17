@@ -10,20 +10,20 @@
   font-size: 24px;
   font-weight: normal;
   font-style: normal;
-  line-height: 1.17;
+  line-height: 28px;
 }
 
 .header__lang-link:not(:last-child) {
-  margin-right: 18px;
+  margin-right: 15px;
 }
 
 .header__lang-link:hover {
   opacity: .8;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 24px;
   }
 }
