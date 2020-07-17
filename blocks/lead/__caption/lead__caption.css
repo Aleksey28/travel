@@ -12,3 +12,15 @@
   font-style: normal;
   line-height: 1.40;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
+}
