@@ -10,6 +10,7 @@
   -ms-flex-direction: column;
   flex-direction: column;
 
+  width: 100%;
   padding-bottom: 92px;
 }
 

@@ -3,6 +3,7 @@
   align-self: flex-start;
 
   margin: 0;
+  padding-top: 4px;
 
   letter-spacing: .15em;
   text-transform: uppercase;
@@ -13,14 +14,14 @@
   line-height: 14px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .lead__caption {
-    margin-left: 24px;
+    margin-left: calc((100vw - 768px) / (1024 - 768) * (0 - 24) + 24px);
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .lead__caption {
-    margin-left: 16px;
+    margin-left: calc((100vw - 320px) / (768 - 320) * (24 - 16) + 16px);
   }
 }

@@ -11,18 +11,24 @@
   line-height: 36px;
 }
 
+@media screen and (max-width: 1280px) {
+  .lead__subtitle {
+    margin-bottom: calc((100vw - 1024px) / (1280 - 1024) * (64 - 56) + 56px);
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
     margin-bottom: 56px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .lead__subtitle {
-    max-width: 288px;
-    margin-bottom: 40px;
+    max-width: calc((100vw - 320px) / (768 - 320) * (640 - 288) + 288px);
+    margin-bottom: calc((100vw - 320px) / (768 - 320) * (56 - 40) + 40px);
 
-    font-size: 16px;
-    line-height: 20px;
+    font-size: calc((100vw - 320px) / (768 - 320) * (30 - 16) + 16px);
+    line-height: calc((100vw - 320px) / (768 - 320) * (36 - 20) + 20px);
   }
 }

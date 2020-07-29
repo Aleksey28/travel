@@ -1,0 +1,29 @@
+@keyframes move-right {
+  100% {
+    transform: translate(9%, 0);
+  }
+}
+
+@keyframes move-left {
+  100% {
+    transform: translate(-9%, 0);
+  }
+}
+
+.header__logo-piece:nth-child(1) {
+  animation: move-right 2s ease-in-out alternate infinite;
+}
+
+.header__logo-piece:nth-child(2) {
+  animation: move-left 2s ease-in-out alternate infinite;
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo-piece:nth-child(1) {
+    width: calc((100vw - 320px) / (768 - 320) * (72 - 58) + 58px);
+  }
+
+  .header__logo-piece:nth-child(2) {
+    width: calc((100vw - 320px) / (768 - 320) * (87 - 70) + 70px);
+  }
+}

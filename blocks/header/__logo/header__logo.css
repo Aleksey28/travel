@@ -1,13 +1,13 @@
 .header__logo {
+  display: flex;
+  justify-content: space-between;
+
   width: 176px;
   height: 100%;
-
-  object-fit: cover;
-  object-position: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .header__logo {
-    width: 142px;
+    width: calc((100vw - 320px) / (768 - 320) * (176 - 142) + 142px);
   }
 }
