@@ -1,0 +1,60 @@
+.popup__close {
+  position: absolute;
+  top: -20px;
+  right: 5px;
+
+  box-sizing: border-box;
+  width: 45px;
+  height: 45px;
+
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.popup__close::after {
+  position: relative;
+
+  display: block;
+
+  height: 45px;
+
+  content: '';
+  transform: rotate(45deg);
+
+  border-left: 2px solid black;
+}
+
+.popup__close::before {
+  position: relative;
+  top: 23px;
+
+  display: block;
+
+  height: 45px;
+
+  content: '';
+  transform: rotate(-45deg);
+
+  border-left: 2px solid black;
+}
+
+
+@media screen and (max-width: 768px) {
+  .popup__close {
+    width: calc((100vw - 320px) / (768 - 320) * (45 - 30) + 30px);
+    height: calc((100vw - 320px) / (768 - 320) * (45 - 30) + 30px);
+  }
+
+  .popup__close::after {
+    height: calc((100vw - 320px) / (768 - 320) * (45 - 30) + 30px);
+  }
+
+  .popup__close::before {
+    top: calc((100vw - 320px) / (768 - 320) * (23 - 19) + 19px);
+
+    height: calc((100vw - 320px) / (768 - 320) * (45 - 30) + 30px);
+  }
+}

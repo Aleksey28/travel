@@ -1,0 +1,8 @@
+.popup__illustration {
+  width: 100%;
+  height: 0;
+
+  transition: height .5s ease-in;
+
+  object-fit: cover;
+}

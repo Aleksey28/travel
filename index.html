@@ -12,10 +12,11 @@
       <img class="header__logo-piece" src="./images/header-logo-map.svg" alt="Логотип Россия.">
       <img class="header__logo-piece" src="./images/header-logo-russia.svg" alt="Логотип Россия.">
     </div>
-    <div class="header__lang-links">
-      <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
-      <a href="#" class="header__lang-link">En</a>
-    </div>
+    <ul class="header__links">
+      <li><a href="#" class="header__link header__link_active header__link_open-popup">О проекте</a></li>
+      <li><a href="#" class="header__link header__link_active">Ru</a></li>
+      <li><a href="#" class="header__link">En</a></li>
+    </ul>
   </header>
   <main class="content">
     <section class="lead">
@@ -164,7 +165,7 @@
         <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
       </a>
-    </section> -->
+    </section>
   </main>
   <footer class="footer">
     <nav>
@@ -178,5 +179,17 @@
     </nav>
     <p class="footer__copyright">© 2020. Попов Алексей</p>
   </footer>
+
+  <div class="popup">
+    <div class="popup__container">
+      <button class="popup__close" type="button" aria-label="Закрыть попап"></button>
+      <h2 class="popup__title">О проекте</h2>
+      <p class="popup__text">Проект призывает проводить свое время в родных краях России. Для того, чтобы заинтересовать читателя приодятся примеры уникальных по своей крас мест России с кратким описанием. В конце проекта представлен перечень инструментов, которые помогут в оргинизации путешествия по родине.</p>
+      <a href="#" class="popup__open-illustration">Открыть илюстрацию</a>
+      <img src="./images/popup-illustration.jpg" alt="Девшка смотрит в поле на закате." class="popup__illustration">
+    </div>
+  </div>
+
+  <script src="./pages/index.js"></script>
 </body>
 </html>

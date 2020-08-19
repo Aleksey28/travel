@@ -1,0 +1,9 @@
+.popup__illustration_opend {
+  height: 420px;
+}
+
+@media screen and (max-width: 768px) {
+  .popup__illustration_opend {
+    height: calc((100vw - 320px) / (768 - 320) * (420 - 100) + 100px);
+  }
+}

@@ -17,12 +17,12 @@
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .cover__title {
-    max-width: 250px;
-    margin-bottom: 16px;
+    max-width: calc((100vw - 320px) / (768 - 320) * (560 - 250) + 250px);
+    margin-bottom: calc((100vw - 320px) / (768 - 320) * (26 - 16) + 16px);
 
-    font-size: 32px;
-    line-height: 35px;
+    font-size: calc((100vw - 320px) / (768 - 320) * (72 - 32) + 32px);
+    line-height: calc((100vw - 320px) / (768 - 320) * (76 - 36) + 35px);
   }
 }
